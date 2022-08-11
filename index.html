@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div id="proj-name" class="centered">Fun Project</div>
+</header>
+
+<main>
+    <div id = 'levels' class="list-group">
+        <div id="levelText" class="font-monospace">Choose a level:</div>
+        <button type="button" class="list-group-item list-group-item-action level">Level - 1</button>
+        <button type="button" class="list-group-item list-group-item-action level" disabled>Level - 2</button>
+        <button type="button" class="list-group-item list-group-item-action level" disabled>Level - 3</button>
+    </div>
+<!--    <img id="myCursor" src="./redDot.png">-->
+    <div id="window" class = 'centered hidden'>
+    <div id="text">Press Me!</div>
+    <div id="button" class="centered"><button type="button" class="btn btn-danger">X</button></div>
+        </div>
+    <div class="success-container centered">
+    <div id="success" class="hidden centered">
+        <div id="success-text"> YOU WON! </div>
+        <div id="success-button-div" ><button type="button" class="btn btn-primary" id="success-button">Try Again</button></div>
+    </div>
+</div>
+    <div id="bottomBar" class="centered hidden">
+        <button type="button" class="btn btn-dark barItem barLeftItem">Menu</button>
+        <button type="button" class="btn btn-dark barItem barRightItem">Next Level</button>
+    </div>
+</main>
+<footer>
+
+</footer>
+
+<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+header{
+    width: 100vw;
+}
+
+body{
+    margin: 0;
+}
+
+/*#myCursor{*/
+/*    position: absolute;*/
+/*    top: 0px;*/
+/*    left: 0px;*/
+/*}*/
+
+
+.centered{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#proj-name{
+    font-size: 25px;
+    background-color: aliceblue;
+}
+
+main{
+    width: 100vw;
+    height: 90vh;
+}
+
+#window{
+    border: solid 2px black;
+    height: 15vh;
+    width: 10vw;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    top: 1vh;
+    left: 1vw;
+    padding: 12px;
+    transition: 3s ease-out;
+}
+
+button{
+    font-size: 20px;
+}
+
+/*button:hover{*/
+/*    cursor: none;*/
+/*}*/
+
+#text {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: solid 2px black;
+}
+
+.hidden{
+    display: none !important;
+}
+
+#success{
+    flex-direction: column;
+    max-width: max-content;
+}
+
+#success-text{
+    font-size: 50px;
+    max-width: max-content;
+    color: green;
+    font-weight: bold;
+}
+
+#success-button{
+    font-size: 20px;
+}
+
+#success-button-div{
+    margin-top: 15px;
+    max-width: max-content;
+}
+
+.success-container{
+    top: 25vh;
+    position: relative;
+}
+
+#levelText{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#levels{
+    margin-top: 20px;
+}
+
+.barItem{
+    width: 100px;
+}
+
+.barRightItem{
+    margin-left: 90px;
+}
+
+#bottomBar{
+    position: relative;
+    top: 40vh;
+}
