@@ -22,6 +22,10 @@ This repository contains the source code for a fun project consisting of a simpl
 - `index.js`: The JavaScript file containing the game logic and event handlers.
 - `style.css`: The CSS file containing the styles for the game elements.
 
+## License
+
+The project is licensed under the MIT License.
+
 ## Acknowledgements
 
 This project is a simple demonstration of using HTML, CSS, and JavaScript to create an interactive game. It utilizes the Bootstrap framework for styling. The project can be customized and enhanced further based on individual preferences and requirements.
